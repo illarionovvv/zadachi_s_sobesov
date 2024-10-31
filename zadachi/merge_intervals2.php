@@ -67,3 +67,5 @@ function arrayToString(array $array): string {
     }
     return $result;
 }
+
+// вроде N

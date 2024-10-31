@@ -1,5 +1,5 @@
 <?php
-
+// не работает!
 class   HashTable       {
 
     public  $HashTable = array();

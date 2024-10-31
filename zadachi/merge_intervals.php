@@ -1,5 +1,6 @@
 <?php declare(strict_types=1);
 
+// мерж интервалов
 function intervals_merge(array $intervals): array
 {
     switch (count($intervals)) {

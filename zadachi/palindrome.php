@@ -8,7 +8,6 @@ echo isPalindrome('a'). "\n";
 echo isPalindrome('aaa'). "\n";
 echo isPalindrome('bbaab'). "\n"; // false
 
-
 function isPalindrome(string $string): int
 {
 $left = 0;

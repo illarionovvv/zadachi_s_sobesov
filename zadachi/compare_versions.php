@@ -1,5 +1,8 @@
 <?php
 
+print(version_cmp("19.1", "1.0")) . "\n"; //1
+print(version_cmp("1.0", "1.0")) . "\n"; //0
+print(version_cmp("1.0", "1.1")) . "\n"; //-1
 print (version_cmp("1.0.1", "1.0.0")) . "\n"; // -> 1
 print(version_cmp("1.1.2", "1.12")) . "\n"; // -> -1
 print(version_cmp("1.1.1", "1.1")) . "\n"; // -> 1

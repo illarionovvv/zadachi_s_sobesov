@@ -9,7 +9,9 @@
 
 $ar = [3, 0, 1, 5];
 $ar = [3, 0, 2, 6, 1, 5, 4];
-$sum = 4;
+$ar = [3, 2, 4];
+$ar = [3, 3];
+$sum = 6;
 // filter all bigger
 
 function getSum(array $nums, int $sum): array {
@@ -19,7 +21,7 @@ function getSum(array $nums, int $sum): array {
         $secondMember = $sum - $value;
 
         if (isset($knownMembers[$secondMember])) {
-            return [$position, $knownMembers[$secondMember]];
+            return [$knownMembers[$secondMember], $position];
         }
 
         $knownMembers[$value] = $position;
